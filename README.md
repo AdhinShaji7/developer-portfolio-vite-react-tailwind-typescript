@@ -78,11 +78,3 @@ npm run dev
 
 View the Project 🌐
 Open your browser and visit http://localhost:5173/ to see the result! 🎉
-
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-tachments/assets/6a427936-1f00-4328-b4a2-92f38dede638)
-
-![image](https://github.com/user-attachments/assets/2bde15dd-22ac-4dcd-8854-a89172b3eb9c)
