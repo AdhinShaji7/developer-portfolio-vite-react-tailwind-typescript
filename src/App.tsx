@@ -1,0 +1,31 @@
+import { Routes, Route } from "react-router";
+import Hero from "./pages/Hero/page";
+import Header from "./pages/Header/page";
+import About from "./pages/About/page";
+import Skills from "./pages/Skills/page";
+import Experience from "./pages/Experience/page";
+import Contact from "./pages/Contact/page";
+
+export default function App() {
+  return (
+    <>
+      <div className="dark-theme">
+        <Header />
+        <Routes>
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route
+            path="*"
+            element={
+              <>
+                <Hero />
+                <About />
+              </>
+            }
+          />
+        </Routes>
+      </div>
+    </>
+  );
+}
